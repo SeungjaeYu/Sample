@@ -8,6 +8,7 @@ public class Test {
 		System.out.println("Happy");
 		System.out.println("ehlsmswl ghkrdls");
 		System.out.println("dhoksehladskf");
+		System.out.println("마지막엔 push");
 	}
 
 }
