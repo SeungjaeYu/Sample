@@ -34,12 +34,12 @@
 </div>
 <div class="form-group">
 내용<textarea rows="10" cols="10" name="content" class="form-control"><%= nocontent%></textarea>
- <input type="submit" value="수정">
+ <input type="submit" value="수정" class="btn btn-primary">
  
 </div>
 </form>
-<a href="NoticeListServlet">목록</a>
-<a href="NoticeDeleteServlet?nonum=<%=nonum%>">삭제</a>
+<a href="NoticeListServlet" class="btn btn-primary">목록</a>
+<a href="NoticeDeleteServlet?nonum=<%=nonum%>" class="btn btn-primary"> 삭제</a>
 
 </body>
 </html>
